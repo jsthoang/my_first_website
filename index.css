@@ -364,6 +364,11 @@ footer {
     .navbar-nav{
         display:none;
     }
+    #sb-nut1{
+        height: 10%;
+        width: 60%;
+        margin-left: 20%;
+    }
     .big-btn {
     margin-top: 320px;
     height: 50px;
