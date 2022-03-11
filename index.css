@@ -303,19 +303,62 @@ footer {
     -webkit-filter: invert(90%);
 }
 #ba-soc{
-    width: 40px;
-    background: none;
+    width: 30px;
+    height:30px;
     border:none;
 }
-.nav__overlay {
+#nav__overlay {
     position:fixed;
-    background-color: rgba(10, 9, 15, 0.3);
+    background-color: rgba(10, 9, 15, 0.2);
     top:0;
     right:0;
     left:0;
     bottom:0;
+    display: none;
 }
-@media only screen  and (max-width: 768px) {
+#sb-container {
+    flex-direction: column;
+    position:fixed;
+    background-color: rgb(255, 255, 255);
+    top:0;
+    right:0;
+    left:150px;
+    bottom:0;
+    display: none;
+}
+#sb-container >a {
+    padding: 30px;
+    text-decoration: none;
+    color:#332E54;
+    font-family: 'larssiet','Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,Verdana,sans-serif;
+    font-weight: 600;
+    
+}
+#sb-container >a:hover {
+    background-color: #7a7e9710;
+}
+#sb-nut1 {
+    width: 20%;
+    height: 5%;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 700;
+    color: #332E54;
+    background-color: white;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#332E54;
+    transition: all .3s ease;
+}
+#sb-nut1:hover {
+    border-style: solid;
+    border-width: 2px;
+    background-color:#332E54;
+    color:rgba(255, 255, 255, 0.89);
+}
+
+@media only screen  and (max-width: 1500px) {
     #nut1 {
         display: none;
     }
