@@ -139,7 +139,7 @@ nav {
 #sld1-img {
     position:absolute ;
     height: 500px;
-    margin-top: 45%;
+    margin-top: 5%;
     margin-bottom: 500px;
     margin-left: 190px;
     border-radius: 10px;
@@ -147,7 +147,7 @@ nav {
 #sld1-bgr {
     position:absolute;
     height: 500px;
-    margin-top: 47%;
+    margin-top: 7%;
     margin-bottom: 500px;
     margin-left: 220px;
     border-radius: 10px;
@@ -155,7 +155,7 @@ nav {
 .slide1 > p{
     position:absolute;
     display: inline-block;
-    margin-top: 58%;
+    margin-top: 18%;
     margin-left: 900px ;
     width: 30%;
     color:#332E54;
@@ -164,7 +164,7 @@ nav {
 .slide1 > h2{
     position:absolute;
     display: inline-block;
-    margin-top: 53%;
+    margin-top: 13%;
     margin-left: 900px ;
     width: 30%;
     color:#332E54;
@@ -172,7 +172,7 @@ nav {
 .slide2 > h3{
     position:absolute;
     display: inline-block;
-    margin-top: 83%;
+    margin-top: 43%;
     margin-left: 38% ;
     width: 30%;
     color:#332E54;
@@ -181,7 +181,7 @@ nav {
 #product {
     position:absolute ;
     height: 500px;
-    margin-top: 90%;
+    margin-top: 50%;
     margin-bottom: 500px;
     margin-left: 65%;
     border-radius: 10px;
@@ -191,7 +191,7 @@ nav {
     position:absolute ;
     height: 500px;
     width: 410px;
-    margin-top: 92%;
+    margin-top: 52%;
     margin-bottom: 500px;
     margin-left: 67%;
     border-radius: 10px;
@@ -199,7 +199,7 @@ nav {
 .flxb-container {
     display: flex;
     position:absolute;
-    margin-top: 95%;
+    margin-top: 55%;
     margin-left: 11%;
     width: 30%;
     font-weight: 900;
@@ -221,7 +221,7 @@ nav {
 .slide2 >p{
     position:absolute;
     display: inline-block;
-    margin-top: 105%;
+    margin-top: 65%;
     margin-left: 190px ;
     width: 30%;
     color:#332E54;
@@ -232,7 +232,7 @@ nav {
 }
 footer {
     position: absolute;
-    margin-top: 100%;
+    margin-top: 90%;
     width:100%;
     height: 75%;
     background-color: #262A47;
@@ -356,8 +356,7 @@ footer {
     border-width: 2px;
     background-color:#332E54;
     color:rgba(255, 255, 255, 0.89);
-}
-
+}/*--------For Mobile--------*/
 @media only screen  and (max-width: 1500px) {
     #nut1 {
         display: none;
@@ -366,7 +365,7 @@ footer {
         display:none;
     }
     .big-btn {
-    margin-top: 190px;
+    margin-top: 320px;
     height: 50px;
     width: 190px;
     }
@@ -392,10 +391,95 @@ footer {
     #mov-header {
         margin-left:-20px;
     }
-    .slide1 {
-        margin-top: 150px;
+    #sld1-img {
+        width: 90%;
+        height: 55%;
+        margin-left: 10px;
     }
-}
+    #sld1-bgr {
+        width: 90%;
+        height: 55%;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .slide1 > h2{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 450px;
+    }
+    .slide1 > p{
+        margin-left: 10%;
+        margin-top: 500px;
+        width: 80%;
+    }
+    .slide2 > h3{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 900px;
+        text-align: center;
+    }
+    .slide2 > p{
+        margin-left: 10%;
+        margin-top: 1600px;
+        width: 80%;
+    }
+    .flxb-container {
+        transform: scale(0.6);
+        margin-top: 1500px;
+        margin-left: 0;
+    }
+    #product {
+        width: 90%;
+        height: 70%;
+        margin-left: 4%;
+        margin-top: 980px;
+    }
+    #sld-pt2 {
+        width: 90%;
+        height: 70%;
+        margin-left: 6%;
+        margin-top: 1000px;
+    }
+    
+
+
+    footer {
+        margin-top: 550%;
+        width:100%;
+        height:700px;
+    }
+    .option{
+        transform: scale(0.7);
+        margin-top: 20px;
+    }
+    .option >h {
+        margin-left: 20px;
+    }
+    .option >li>a {
+        margin-left: 22px;
+        text-align: center;
+    }
+    .contact{
+        margin-left: 180px;
+    }
+    .term{
+        margin-top: 350px;
+        margin-left: 18px;
+    }
+    .term >a{
+        font-size:10px;
+    }
+    #logo1 {
+        width: 100px;
+        margin-top: 140%;
+        margin-left: 10%;
+    }
+    #logo2 {
+        width: 120px;
+        margin-top: 128%;
+        margin-left: 55%;
+    }
+}/*--------For PC---------*/
 @media only screen and (min-width: 1600px)
 {
     .sidebar {
