@@ -365,6 +365,36 @@ footer {
     .navbar-nav{
         display:none;
     }
+    .big-btn {
+    margin-top: 190px;
+    height: 50px;
+    width: 190px;
+    }
+    #tryfree{
+        width: 30%;
+        background-color: #262A47;
+        color:rgb(255, 255, 255);
+    }
+    #Demo {
+        width: 30%;
+        margin-left: 1%;
+        border-color: #262A47;
+        color:#262A47;
+    }
+    .header {
+        color:#262A47;
+        margin-top: 70px;
+        font-size: 35px;
+    }
+    #low-header {
+        margin-top: 120px;
+    }
+    #mov-header {
+        margin-left:-20px;
+    }
+    .slide1 {
+        margin-top: 150px;
+    }
 }
 @media only screen and (min-width: 1600px)
 {
