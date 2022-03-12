@@ -410,46 +410,46 @@ footer {
     .slide1 > h2{
         width: 60%;
         margin-left: 20%;
-        margin-top: 450px;
+        margin-top: 530px;
     }
     .slide1 > p{
         margin-left: 10%;
-        margin-top: 500px;
+        margin-top: 580px;
         width: 80%;
     }
     .slide2 > h3{
         width: 60%;
         margin-left: 20%;
-        margin-top: 900px;
+        margin-top: 1000px;
         text-align: center;
     }
     .slide2 > p{
         margin-left: 10%;
-        margin-top: 1600px;
+        margin-top: 1880px;
         width: 80%;
     }
     .flxb-container {
-        transform: scale(0.6);
-        margin-top: 1500px;
+        transform: scale(0.45);
+        margin-top: 1780px;
         margin-left: 0;
     }
     #product {
         width: 90%;
         height: 70%;
         margin-left: 4%;
-        margin-top: 980px;
+        margin-top: 1150px;
     }
     #sld-pt2 {
         width: 90%;
         height: 70%;
         margin-left: 6%;
-        margin-top: 1000px;
+        margin-top: 1180px;
     }
     
 
 
     footer {
-        margin-top: 550%;
+        margin-top: 650%;
         width:100%;
         height:700px;
     }
